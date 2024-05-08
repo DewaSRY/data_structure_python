@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-structure"
+version = "0.1.0"
+description = ""
+authors = ["DewaSRY <sdewa6645@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_structure", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
